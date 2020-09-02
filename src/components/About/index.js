@@ -6,7 +6,7 @@ const About = () => {
       <h2 id="about-me">ABOUT ME</h2>
       <hr />
       {/* <!-- Insert a horizontal card with an image and description --> */}
-      <div className="card mb-3" style="max-width: 840px;">
+      <div className="card mb-3" style={{ maxWidth: "840px" }}>
         <div className="row no-gutters">
           <div className="col-md-4">
             <img src="./public/Headshot1.png" className="card-img" alt="Mike" />

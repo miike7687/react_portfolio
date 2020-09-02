@@ -1,0 +1,102 @@
+/* Font for everything unless edited later */
+* {
+  font-family: "Piedra", cursive;
+}
+/* Align my name center with a background color that pops */
+h1 {
+  text-align: center;
+  background-color: darkcyan;
+}
+
+body {
+  background-color: darkslategray;
+}
+
+h2 {
+  padding: 15px;
+}
+/* Style the container in my Contact Page */
+.container {
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: gray;
+}
+/* Style the container on my homepage */
+.container1 {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+#portfolio-container,
+#contact-container {
+  border: black dotted 4px;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#about-me {
+  text-align: center;
+  color: aqua;
+}
+
+#portfolio-info {
+  text-align: center;
+  color: aqua;
+}
+
+.thumbnail-info {
+  background-color: floralwhite;
+}
+
+footer {
+  text-align: center;
+  background-color: grey;
+  margin-top: 15px;
+}
+
+/* .card-position {
+  width: 18rem;
+  margin: 0 auto;
+} */
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#portfolio-header {
+  font-style: italic;
+  font-size: 48px;
+}
+
+.btn:hover {
+  background-color: darkred;
+}
+
+#facebook-btn {
+  margin: 15px;
+}
+
+.mb-3 {
+  margin: 0 auto;
+}
+
+.card {
+  width: 80%;
+  height: 100%;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin-bottom: 15px;
+}
