@@ -9,7 +9,7 @@ h1 {
 }
 
 body {
-  background-color: darkslategray;
+  background-image: url("/software.jpg");
 }
 
 h2 {
@@ -45,7 +45,9 @@ button {
 
 #about-me {
   text-align: center;
-  color: aqua;
+  color: black;
+  font-weight: bold;
+  font-size: 48px;
 }
 
 #portfolio-info {
@@ -81,7 +83,7 @@ footer {
   background-color: darkred;
 }
 
-#facebook-btn {
+#github-btn {
   margin: 15px;
 }
 

@@ -5,11 +5,19 @@ const Footer = () => {
     <footer class="footer">
       <a
         class="btn btn-primary"
-        id="facebook-btn"
-        href="https://www.facebook.com/profile.php?id=11315824"
+        id="github-btn"
+        href="https://github.com/miike7687?tab=repositories"
         role="button"
       >
-        Facebook Me!
+        Github
+      </a>
+      <a
+        class="btn btn-primary"
+        id="linked-btn"
+        href="https://www.linkedin.com/in/michael-haber-8a430645/"
+        role="button"
+      >
+        LinkedIn
       </a>
     </footer>
   );

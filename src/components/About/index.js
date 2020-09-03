@@ -1,4 +1,5 @@
 import React from "react";
+import Headshot from "./Headshot1.png";
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
       <div className="card mb-3" style={{ maxWidth: "840px" }}>
         <div className="row no-gutters">
           <div className="col-md-4">
-            <img src="./public/Headshot1.png" className="card-img" alt="Mike" />
+            <img src={Headshot} className="card-img" alt="Mike" />
           </div>
           <div className="col-md-8">
             <div className="card-body">
