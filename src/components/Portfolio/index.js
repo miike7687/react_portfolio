@@ -148,6 +148,73 @@ const Portfolio = () => {
           {/* <!-- 2nd row, 1st column card with info about a website I created for fun --> */}
           <div className="card card-position">
             <img
+              src="https://i.pinimg.com/originals/53/af/5d/53af5d7cc1fbf52057109d14b3e21ffb.jpg"
+              className="card-img-top"
+              alt="Workout"
+            />
+            <div className="card-body">
+              <h5 className="card-title">FITNESS TRACKER</h5>
+              <p className="card-text">
+                An easy way to maintain your health and log your results.
+              </p>
+              <a
+                href="https://dry-temple-34699.herokuapp.com/"
+                className="btn btn-primary"
+              >
+                Fitness
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card card-position">
+            <img
+              src="https://cnet3.cbsistatic.com/img/_yzEPQWVhyypvW7zOAHTSnJf2LU=/1200x675/2020/07/31/bc892f23-c324-4125-83d4-50c196526dea/006-cash-money-dollar-bills-colorful-background-stimulus-2020.jpg"
+              className="card-img-top"
+              alt="Dollar Sign"
+            />
+            <div className="card-body">
+              <h5 className="card-title">PROGRESSIVE BUDGET</h5>
+              <p className="card-text">
+                Check out this progressive budget app that updates even when
+                offline!
+              </p>
+              <a
+                href="https://fathomless-lowlands-29273.herokuapp.com/"
+                className="btn btn-primary"
+              >
+                Budget
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card card-position">
+            <img
+              src="https://www.jing.fm/clipimg/detail/140-1407899_baseball-diamond-clipart-transparent.png"
+              className="card-img-top"
+              alt="Cartoon ball"
+            />
+            <div className="card-body">
+              <h5 className="card-title">YANKEES TEAM DIRECTORY</h5>
+              <p className="card-text">
+                Want to search for a Yankee from a database of players?
+              </p>
+              <a
+                href="https://github.com/miike7687/employee_directory"
+                className="btn btn-primary"
+              >
+                Yankees
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row justify-content-center">
+        <div className="col-md-4">
+          {/* <!-- 2nd row, 1st column card with info about a website I created for fun --> */}
+          <div className="card card-position">
+            <img
               src="https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/brand-4434-virtual-team-building-activities-road-tested-by-actual-remote-workers--1240x720.jpg"
               className="card-img-top"
               alt="Teamwork"
@@ -197,7 +264,7 @@ const Portfolio = () => {
               alt="Education"
             />
             <div className="card-body">
-              <h5 className="card-title">TEACHER REACHER</h5>
+              <h5 className="card-title">iCLASSROOM</h5>
               <p className="card-text">
                 Educational app that allows students to collaborate, share
                 notes, and check grades.
